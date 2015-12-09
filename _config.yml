@@ -2,7 +2,7 @@
 title: Brian Edmond
 email: brianwedmond@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm an artist, photographer, a fresh-faced developer. I like to stand when I paddle.
+  I'm an artist, a photographer, a fresh-faced developer, and I like to stand when I paddle.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  bedmond

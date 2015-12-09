@@ -12,10 +12,11 @@
 }
 
 .site-title {
+    font-weight: 100;
     font-size: 36px;
     line-height: 100px;
     letter-spacing: -1px;
-    margin-bottom: 0;
+    margin-bottom: -33px;
     float: left;
 
     &,
@@ -93,7 +94,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $brand-color;
     padding: $spacing-unit 0;
 }
 
@@ -104,6 +105,7 @@
 
 .contact-list,
 .social-media-list {
+    color: $grey-color-dark;
     list-style: none;
     margin-left: 0;
 }
