@@ -4,6 +4,22 @@ layout: default
 
 <div class="home">
 
+  <h1 class="page-heading">The Work</h1>
+
+    {% for project in site.portfolio limit:3 %}
+      <li>
+        {% if project.image %}
+        <img src="{{ project.image }}">
+        {% endif %}
+        <br/>
+
+        <h3>
+          <a href="{{ project.url }}">{{ project.title }}</a>
+        </h3>
+          <p>{{ project.short-description }}</p>
+      </li>
+    {% endfor %}
+
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
