@@ -1,7 +1,7 @@
 ---
 layout: post
 title: bloc-time
-image: "images/S_thumbs.png"
-short-description: Get productive with the Pomodoro method and bloc-time. Produce produce!
+image: "images/HthumbsYellow.jpg"
 ---
 Start-Stop. bloc-time, yeah!
+Get productive with the Pomodoro method and bloc-time. Produce produce!

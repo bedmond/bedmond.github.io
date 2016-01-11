@@ -4,7 +4,7 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 5px solid $grey-color-dark;
-    min-height: 56px;
+    min-height: 48px;
     background-color: $grey-color-dark;
 
     // Positioning context for the mobile navigation icon
@@ -13,10 +13,10 @@
 
 .site-title {
     font-weight: 100;
-    font-size: 36px;
-    line-height: 100px;
-    letter-spacing: -1px;
-    margin-bottom: -33px;
+    font-size:23px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    margin-bottom: -53px;
     float: left;
 
     &,
@@ -28,10 +28,11 @@
 //Current location of About link
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 38px;
 
     .menu-icon {
         display: none;
+        margin-bottom: -3px
 
     }
 
@@ -61,7 +62,7 @@
             width: 36px;
             height: 26px;
             line-height: 0;
-            padding-top: 10px;
+            padding-top: 5px;
             text-align: center;
 
         }

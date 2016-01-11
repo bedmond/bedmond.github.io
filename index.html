@@ -6,20 +6,33 @@ layout: default
 
   <h1 class="page-heading">The Work</h1>  
     {% for project in site.portfolio limit:3 %}
-    <div class="row">
+    <div class="thumbnail.container">
       <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
           {% if project.image %}
-        <img src="{{ project.image }}">
+        <img src="{{ project.image }}" class="img-rounded">
         {% endif %}
         <h3>
-          <a href="{{ project.url }}">{{ project.title }}</a>
+          <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
         </h3>
           <p>{{ project.short-description }}</p>
         </div>
       </div>
     </div>
     {% endfor %}
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+
 
   <h1 class="page-heading">Posts</h1>
 
@@ -32,7 +45,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         {% if post.image %}
-        <img  src="/images/{{ post.image }}">
+        <img  src="{{ post.image }}" class="img-rounded">
         {% endif %}
       </li>
     {% endfor %}

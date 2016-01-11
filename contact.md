@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-feature-img: "/images/SthumbsRed.jpg"
+image: "images/SthumbsRed.jpg"
 ---
 
 
