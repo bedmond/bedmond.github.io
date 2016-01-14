@@ -2,11 +2,10 @@
 layout: page
 title: About
 permalink: /about/
-image: "images/SthumbsRed.jpg"
+image: "images/profile_crop1.jpg"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+You can find out a little bit more about my development projects at:  [bedmond's Github repo][bedmond-gh]. 
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+[bedmond-gh]: https://github.com/bedmond
