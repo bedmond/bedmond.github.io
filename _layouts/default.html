@@ -7,6 +7,10 @@
 
     {% include header.html %}
 
+    {% if page.headerImage %}
+    <img src="/images/{{ page.headerImage }}">
+    {% endif %}
+
     <div class="page-content">
       <div class="wrapper">
         {{ content }}

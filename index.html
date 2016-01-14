@@ -1,77 +1,26 @@
 ---
 layout: default
+headerImage: B63A4816_1_crop.jpg
 ---
 
 
 <div class="home">
 
-  <!-- <h1 class="page-heading">The Work</h1> -->
-    {% for project in site.portfolio limit:3 %}
-    <div class="thumbnail-container">
-      <div class="col-xs-12 col-md-6">
-        <div class="thumbnail">
-          {% if project.image %}
-        <img src="{{ project.image }}" class="img-rounded">
-        {% endif %}
-        <h3>
-          <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-        </h3>
-          <p>{{ project.short-description }}</p>
-        </div>
+<!-- <h1 class="page-heading">The Work</h1> -->
+  {% for project in site.portfolio limit:3 %}
+  <div class="thumbnail-container">
+    <div class="col-xs-12 col-md-6">
+      <div class="thumbnail">
+        {% if project.image %}
+      <img src="{{ project.image }}">
+      {% endif %}
+      <h3>
+        <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+      </h3>
+        <p>{{ project.short-description }}</p>
       </div>
     </div>
-    {% endfor %}
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
- <br/>
-
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        {% if post.image %}
-        <img  src="{{ post.image }}" class="img-rounded">
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+  {% endfor %}
 
 </div>
