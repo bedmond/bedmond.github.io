@@ -15,7 +15,7 @@ permalink: /blog/
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       {% if post.image %}
-      <img  src="/{{ post.image }}" class="img-rounded">
+      <img  src="/{{ post.image }}">
       {% endif %}
     </li>
   {% endfor %}
