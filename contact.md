@@ -11,7 +11,7 @@ permalink: /contact/
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <!-- #2 -->
     <div class="col-sm-10">
-      <input type='hidden' name='redirect_to' value='https://brianedmond.com/thank-you' />
+      <input type='hidden' name='redirect_to' value='http://brianedmond.com/thank-you' />
     </div>
   </div>
   <div class="form-group">
