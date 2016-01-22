@@ -6,20 +6,19 @@ headerImage: bwBlur_1_crop.jpg
 
 <div class="home">
 
-<!-- <h1 class="page-heading">Projects Portfolio</h1> -->
   {% for project in site.portfolio limit:6 %}
-  <div class="thumbnail-container">
-    <div class="col-xs-12 col-md-4">
+  <div class="thumbnail-container col-xs-12 col-md-4">
+    <a href="{{ project.url | prepend: site.baseurl }}">
       <div class="thumbnail">
         {% if project.image %}
-      <img src="{{ project.image }}">
-      {% endif %}
-      <h3>
-        <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
-      </h3>
+        <img src="{{ project.image }}">
+        {% endif %}
+        <h3>
+          <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+        </h3>
         <p>{{ project.short-description }}</p>
       </div>
-    </div>
+    </a>
   </div>
   {% endfor %}
 
