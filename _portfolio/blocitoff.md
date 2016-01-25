@@ -13,7 +13,7 @@ The bloc-time app utilizes Firebase as the backend which also allows for registr
 The app is mobile ready and intuitive with no obfuscation regarding the functionality.
 
 Check out the code at:
-[bedmond's bloc-time Github repo][bedmond-gh].
+[bedmond's blocitoff Github repo][bedmond-gh].
 
 [bedmond-gh]: https://github.com/bedmond/blocitoff
-[blocitoff]: glacial-journey-3658.herokuapp.com
+[blocitoff]: http://glacial-journey-3658.herokuapp.com
