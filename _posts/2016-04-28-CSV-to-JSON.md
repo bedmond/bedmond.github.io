@@ -3,7 +3,7 @@ layout: post
 title:  "Converting a CSV file to JSON"
 date:   2016-04-28 18:34:55
 categories: tablereader
-authour: Brian Edmond
+author: Brian Edmond
 image: 
 ---
 
