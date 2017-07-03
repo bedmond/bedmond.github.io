@@ -1,6 +1,6 @@
 ---
 layout: post
-title: bloc-time
+title: bloc-time app
 image: "images/bloc-time/1_bloc-time 5min1.jpg"
 ---
 Start-Stop. bloc-time, yeah!

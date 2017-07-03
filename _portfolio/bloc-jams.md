@@ -1,6 +1,6 @@
 ---
 layout: post
-title: bloc-jams
+title: bloc-jams app
 image: "images/bloc-jams/1_bloc-jams Landing.jpg"
 ---
 

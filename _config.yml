@@ -1,5 +1,5 @@
 # Site settings
-title: Brian Edmond
+title: BRIAN EDMOND
 email: brianwedmond@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I'm an artist, a worker, an out-of-the-box thinker.
@@ -16,6 +16,9 @@ collections:
 
 # Scripts
 google_analytics: "UA-72618431-1"
+
+# Masonry
+
 
 # Build settings
 markdown: kramdown

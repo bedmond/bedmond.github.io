@@ -1,6 +1,6 @@
 ---
 layout: post
-title: blocitoff
+title: blocitoff app
 image: "images/blocitoff/4_blocitoff EnteredTasks1.jpg"
 ---
 Get it on with blocitoff!
