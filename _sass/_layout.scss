@@ -156,9 +156,15 @@
     }
 }
 
-.thumbnail-container img {
-    max-width: 250px;
-    max-height: 250px
+.thumbnail-container {
+    max-height: 350px;
+    max-width: 350px;
+    min-height: 350px;
+
+    img {
+        max-height: 250px;
+        max-width: 250px;
+    }
 }
 
 /**
@@ -193,7 +199,7 @@
 
 .project-link {
     display: block;
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
 }
 
