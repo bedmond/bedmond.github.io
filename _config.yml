@@ -13,6 +13,10 @@ permalink: /:title
 collections:
   portfolio:
     output: true
+  portfolioart: 
+    output: true
+  portfolioillustration:
+    output: true
 
 # Scripts
 google_analytics: "UA-72618431-1"
