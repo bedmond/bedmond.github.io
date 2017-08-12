@@ -2,7 +2,7 @@
 title: BRIAN EDMOND
 email: brianwedmond@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm an artist, a worker, an out-of-the-box thinker.
+  I'm an artist, a maker, an out-of-the-box thinker.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://brianedmond.com" # the base hostname & protocol for your site
 github_username:  bedmond
@@ -13,8 +13,8 @@ permalink: /:title
 collections:
   portfolio:
     output: true
-  portfolioart: 
-    output: true
+  # portfolioart: 
+    # output: true
   portfolioillustration:
     output: true
 
