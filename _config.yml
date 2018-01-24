@@ -11,10 +11,10 @@ permalink: /:title
 
 # Collections
 collections:
-  portfolio:
-    output: true
-  # portfolioart: 
+  # portfolio:
     # output: true
+  portfolioart: 
+    output: true
   portfolioillustration:
     output: true
 
