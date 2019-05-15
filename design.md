@@ -4,7 +4,7 @@ title:
 permalink: /design/
 ---
 
-<h1 class="page-heading">Paintings</h1>
+<h1 class="page-heading">Design</h1>
 
 <div class="home">
 
