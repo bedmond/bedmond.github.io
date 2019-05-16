@@ -11,8 +11,8 @@ permalink: /:title
 
 # Collections
 collections:
-  portfolio:
-    output: true
+ # portfolio:
+  #  output: true
   portfolioart: 
     output: true
   portfolioillustration:
